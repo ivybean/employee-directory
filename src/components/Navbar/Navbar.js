@@ -1,10 +1,10 @@
 import React from 'react';
-import './navbar.css';
+import './Navbar.css';
 
 function Navbar() {
   return(
     <nav className="navbar bg-light shadow">
-      <span className="nabar-brand">Company Employee Directory</span>
+      <span className="nabar-brand">Employee Directory for App Inc.</span>
     </nav>
   );
 }
