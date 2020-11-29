@@ -61,23 +61,24 @@ function SearchBar() {
       <div className="card-body">
           <div className="container-fluid">
 
-            
+            <div className="searchBar">
               <tr className="searchRow">
                 <td className="colHead"><input
                 className="searchInput" 
                 type="text" 
                 placeholder="Search by First Name" 
-                name="firstName" 
+                name="first" 
                 onChange={employeeSearch}>
               </input></td>
               <td className="colHead"><input
                 className="searchInput" 
                 type="text" 
                 placeholder="Search by Last Name" 
-                name="lastName" 
+                name="last" 
                 onChange={employeeSearch}>
               </input></td>
               </tr>
+              </div>
               <table>
               <tr className="tableHeader">
                 <th className="fNameHeader colHead"><i className="button btn fa fa-angle-double-up" onClick={() => ascendingSort('first')}></i>First Name<i className="button btn fa fa-angle-double-down" onClick={() => descendingSort('first')}></i></th>

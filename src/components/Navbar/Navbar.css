@@ -1,5 +1,9 @@
 .navbar {
   margin: 0;
   width: 100%;
-  padding: 1.5rem;
+  padding: 5px;
+  justify-content: center;
+  font-family: 'Texturina', serif;
+  font-weight: 800;
+  font-size: 25px;
 }
